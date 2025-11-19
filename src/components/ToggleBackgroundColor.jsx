@@ -9,7 +9,7 @@ const ToggleBackgroundColor = () => {
     const handleToggle = () =>{
         setBackgroundColor(backgroundColor === "white" ? "#1b1b1b" : "white")
         setTextColor(textColor === "#1b1b1b" ? "#ffa31a": "#1b1b1b")
-        setButtonStyle(buttonStyle === "white"? "#1b1b1b" : "white")
+        setButtonStyle(backgroundColor === "white"? "#1b1b1b" : "white")
     }
   return (
     <div style={{ backgroundColor,color:textColor}}>
